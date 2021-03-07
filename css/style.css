@@ -3,7 +3,21 @@
     padding: 0;
 
 }
-
-h1 {
-    color:rgb(0, 0, 255);
+header {
+    border:1px solid black;
+    min-height:100px;
+    padding:15px
+}
+main {
+    border:1px solid black;
+    min-height:100px;
+    padding:15px
+}
+footer {
+    border:1px solid black;
+    min-height:100px
+}
+section{
+    border:1px solid black;
+    min-height:200px
 }
