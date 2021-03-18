@@ -59,8 +59,9 @@ main {
 #accomodation {
     display: flex;
     flex-direction: row;
+    
 }
-#accomodation-list {
+#accomodation-in-marseille {
     border: 1px solid black;
     width:68%;
     margin:10px;
@@ -73,7 +74,9 @@ main {
 #activites-in-marseille {
     border: 1px solid black;
 }
-
+#activity-images {
+    border: 1px solid black;
+}
 section {
     border: 1px solid black;
     min-height:100px;
