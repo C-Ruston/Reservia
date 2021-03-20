@@ -59,23 +59,64 @@ main {
 #accomodation {
     display: flex;
     flex-direction: row;
-    
 }
 #accomodation-in-marseille {
     border: 1px solid black;
     width:68%;
     margin:10px;
 }
+#accomodation-title {
+    border: 1px solid black;
+    min-height: 40px;
+}
+#accomodation-list {
+    border: 1px solid black;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px 30px 70px; 
+}
+.accomodation-box {
+    border: 1px solid black;
+    width: 50px;
+    height: 180px;
+    margin-right: 23px;
+    margin-bottom: 10px;
+}
+#show-more {
+    border: 1px solid black;
+    min-height: 40px;
+
+}
 #most-popular {
     border: 1px solid black;
-    width:30%;
+    width:20%;
     margin:10px;
 }
+#most-popular-title {
+    border: 1px solid black;
+    min-height: 40px;
+}
+#most-popular-list {
+    border: 1px solid black;
+    min-height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
 #activites-in-marseille {
     border: 1px solid black;
 }
 #activity-images {
     border: 1px solid black;
+    min-height: 200px;
 }
 section {
     border: 1px solid black;
