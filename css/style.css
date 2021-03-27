@@ -61,28 +61,38 @@ main {
     flex-direction: row;
 }
 #accomodation-in-marseille {
-    border: 1px solid black;
     width:68%;
     margin:10px;
     background-color: #f2f2f2;
+    border-radius: 15px;
 }
 #accomodation-title {
-    
     min-height: 40px;
+    padding-left: 35px;
+    padding-top: 25px;
 }
-#accomodation-list {
-    
+#accomodation-list {    
     min-height: 200px;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 30px 30px 70px; 
+    padding: 10px 10px 10px 30px;
+}
+.accomodation-box {
+    background-color: white;
+    width: 30%;
+    height: 220px;
+    margin-right: 23px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 5px;
 }
 .acc-img {
     height:140px;
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 5px;
 }
 .acc-icon-blue {
     color: #0065FC;
@@ -90,40 +100,46 @@ main {
 .acc-icon-grey {
     color: #F2F2F2;
 }
-.accomodation-box {
-    background-color: white;
-    width: 30%;
-    height: 220px;
-    margin-right: 23px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 5px;
-}
 #show-more {
-    border: 1px solid black;
     min-height: 40px;
-
 }
 #most-popular {
-    border: 1px solid black;
     width:30%;
     margin:10px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
 }
 #most-popular-title {
-    border: 1px solid black;
     min-height: 40px;
+    padding-top: 25px;
+    padding-left: 35px;
 }
 #most-popular-list {
-    border: 1px solid black;
     min-height: 550px;
+    padding: 10px 10px 10px 30px;
 }
 .most-popular-box {
-    border: 1px solid black;
-    width: 90%;
-    height: 150px;
-    margin: 30px;
-    
+    background-color: white;
+    width: 93%;
+    height: 170px;
+    margin-right: 23px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
 }
+.popular-img {
+    height:170px;
+    width: 40%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-right: 15px;
+}
+
+
+
 #activities {
     border: 1px solid black;
 }
@@ -141,6 +157,11 @@ main {
     width: 25%;
     height: 350px;
     margin: 15px;
+}
+#show-more {
+    min-height: 35px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 
